@@ -1,0 +1,166 @@
+- name: archives
+  description: Folder for storing archived files.
+  folders:
+    - name: assets
+      description: Folder for storing asset files.
+    - name: backup
+      description: Folder for backup files.
+      folders:
+        - name: applications
+          description: Folder for backup of application files.
+        - name: cloud
+          description: Folder for backup of cloud data.
+        - name: computers
+          description: Folder for backup of computer files.
+        - name: phones
+          description: Folder for backup of phone files.
+        - name: tablets
+          description: Folder for backup of tablet files.
+- name: installers
+  description: Folder for storing software installers.
+- name: documents
+  description: Folder for storing documents.
+  folders:
+    - name: personal
+      description: Folder for personal documents.
+      folders:
+        - name: resource
+          description: Folder for personal resource files.
+          folders:
+            - name: finance
+              description: Folder for financial documents.
+            - name: health
+              description: Folder for health-related documents.
+            - name: home
+              description: Folder for home-related documents.
+            - name: travel
+              description: Folder for travel-related documents.
+              folders:
+                - name: "{year}"
+                  description: Folder for travel documents of a specific year.
+                  folders:
+                    - name: "{location}"
+                      description: Folder for travel documents of a specific location.
+    - name: family
+      description: Folder for family-related documents.
+      folders:
+        - name: "{name}"
+          description: Folder for documents related to a specific family member.
+    - name: friends
+      description: Folder for documents related to friends.
+      folders:
+        - name: "{name}"
+          description: Folder for documents related to a specific friend.
+    - name: notes
+      description: Folder for personal notes.
+    - name: identity
+      description: Folder for identity-related documents.
+      folders:
+        - name: applications
+          description: Folder for identity-related applications.
+        - name: cv
+          description: Folder for curriculum vitae (CV) documents.
+        - name: diplomas
+          description: Folder for diploma documents.
+        - name: passport
+          description: Folder for passport documents.
+        - name: work-certificates
+          description: Folder for work certificates.
+    - name: work
+      description: Folder for work-related documents.
+      folders:
+        - name: "{company-name}"
+          description: Folder for documents related to a specific company.
+          folders:
+            - name: projects
+              description: Folder for work projects.
+            - name: meetings
+              description: Folder for meeting-related documents.
+            - name: contracts
+              description: Folder for contract documents.
+            - name: notes
+              description: Folder for work-related notes.
+- name: hobby
+  description: Folder for hobby-related documents.
+  folders:
+    - name: projects
+      description: Folder for hobby projects.
+    - name: 3D
+      description: Folder for 3D-related hobby files.
+      folders:
+        - name: printing
+          description: Folder for 3D printing files.
+        - name: modeling
+          description: Folder for 3D modeling files.
+- name: images
+  description: Folder for storing images.
+  folders:
+    - name: my-images
+      description: Folder for personal images.
+      folders:
+        - name: family
+          description: Folder for family-related images.
+          folders:
+            - name: "{name}"
+              description: Folder for family-related images of a specific person.
+              folders:
+                - name: "{year}"
+                  description: Folder for family images of a specific year.
+        - name: friends
+          description: Folder for images of friends.
+          folders:
+            - name: "{name}"
+              description: Folder for images related to a specific friend.
+              folders:
+                - name: "{year}"
+                  description: Folder for friend images of a specific year.
+        - name: personal
+          description: Folder for personal images.
+          folders:
+            - name: "{year}"
+              description: Folder for personal images of a specific year.
+        - name: work
+          description: Folder for work-related images.
+          folders:
+            - name: "{company-name}"
+              description: Folder for work-related images of a specific company.
+              folders:
+                - name: "{year}"
+                  description: Folder for work images of a specific year.
+    - name: screenshots
+      description: Folder for storing screenshots.
+    - name: purpose-based
+      description: Folder for purpose-based images.
+      folders:
+        - name: backgrounds
+          description: Folder for background images.
+        - name: icons
+          description: Folder for icon images.
+        - name: logos
+          description: Folder for logo images.
+        - name: profile-pics
+          description: Folder for profile picture images.
+    - name: memes
+      description: Folder for storing memes.
+- name: software
+  description: Folder for storing software files.
+  folders:
+    - name: config
+      description: Folder for storing configuration files.
+      folders:
+        - name: dotfiles
+          description: Folder for storing dotfiles.
+    - name: windows
+      description: Folder for Windows-related files.
+      folders:
+        - name: iso
+          description: Folder for Windows ISO files.
+        - name: apps
+          description: Folder for Windows applications.
+    - name: linux
+      description: Folder for Linux-related files.
+      folders:
+        - name: iso
+          description: Folder for Linux ISO files.
+        - name: apps
+          description: Folder for Linux applications.
